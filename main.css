@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.h1 {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    text-indent: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 0px solid;
+    background: linear-gradient(45deg, black, wheat);
+    outline: none;  
+}
+
+.hisobkutob > button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px solid;
+    color: aliceblue;
+    background: linear-gradient(45deg, black, wheat);
+    cursor: pointer;
+}
+
+.hisobkutob {
+    width: 100%;
+    height: 300px;
+}
+
+.home_products {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+.home_products>button {
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    border: 0px solid;
+    color: aliceblue;
+    background: linear-gradient(45deg, black, wheat);
+}
+
+.loding {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.474);
+    display: none;
+}

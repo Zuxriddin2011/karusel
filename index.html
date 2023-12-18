@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title> 
+</head>
+
+<body>
+    <div class="box">
+        <div class="NavTop">
+            <h3 class="logo">Home</h3>
+            <br>
+            <div>
+                <p class="a">error</p>
+                <div class="loding">
+                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <input id="login" class="inp" type="search" placeholder="login">
+            <input id="parol" class="inp" type="search" placeholder="Password">
+
+            <button class="forget">Forget Password?</button>
+
+            <button onclick="signIn()" class="btn">Login</button>
+
+            <div class="footer">
+                <p class="p1">Not a Member?</p>
+                <a href="http://127.0.0.1:5500/index.html" class="p1" >muchal</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./App.js"></script>
+</body>
+
+</html>
