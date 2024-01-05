@@ -4,7 +4,7 @@ const signIn = () => {
     let error = document.querySelector(".a");
     let loding = document.querySelector(".loding")
 
-    if (login === "apple" && parol === "chatGPT") {
+    if (login === "onam" && parol === "nigoraF") {
         loding.style.display = "flex";
         error.style.display = "none";
 
