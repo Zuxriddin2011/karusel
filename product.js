@@ -8,7 +8,7 @@ const funxtsyasi = () => {
         h1.innerText = `${value}ni narhi 23 000so'm`
     } if (value == "bexi") {
         h1.innerText = `${value}ni narhi 14 000so'm`
-    } if (value) {
+    } if (value == "ananas") {
         h1.innerText = `${value}ni narhi 23 000so'm`
     } if (value == "banan") {
         h1.innerText = `${value}ni narhi 30 000so'm`

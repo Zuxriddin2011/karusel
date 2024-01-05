@@ -30,6 +30,7 @@ input {
     border-radius: 10px;
     color: aliceblue;
     border: 0px solid;
+    font-size: 18px;
     background: linear-gradient(45deg, black, wheat);
     outline: none;  
 }
@@ -40,6 +41,7 @@ input {
     border-radius: 10px;
     border: 0px solid;
     color: aliceblue;
+    font-size: 18px;
     background: linear-gradient(45deg, black, wheat);
     cursor: pointer;
 }
